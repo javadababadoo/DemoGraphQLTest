@@ -45,7 +45,7 @@ export class AppComponent {
         }
       `
       }).valueChanges.subscribe(resp => {
-        console.log('Response ==> ', resp);
+        console.log('Response==> ', resp);
       });
     } catch (error) {
       console.log('Error ==> ', error);
